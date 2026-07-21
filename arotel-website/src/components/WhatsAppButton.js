@@ -1,6 +1,6 @@
 export default function WhatsAppButton() {
   // Replace with actual WhatsApp number
-  const phoneNumber = "15551234567";
+  const phoneNumber = "917385137554";
   const message = encodeURIComponent(
     "Hello! I'd like to inquire about booking a room at Arotel Rooms & Suites."
   );

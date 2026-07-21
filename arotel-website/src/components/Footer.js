@@ -70,9 +70,9 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-1.5 text-sm text-white/50">
-              <p>123 Luxury Avenue, City</p>
-              <p>+1 (555) 123-4567</p>
-              <p>info@arotel.net</p>
+              <p>1/338, Calangute, Gauravaddo, Goa, 403516</p>
+              <p>+91 7385137554</p>
+              <p>arotelroomsandsuites@gmail.com</p>
             </div>
           </div>
 

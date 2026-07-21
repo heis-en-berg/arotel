@@ -161,7 +161,7 @@ export default function RestaurantPage() {
                 Make a Reservation
               </Link>
               <a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/917385137554"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-[#16161A] hover:bg-[#16161A] hover:text-white text-[#16161A] text-xs tracking-[0.15em] uppercase px-9 py-3.5 transition-all duration-300"
