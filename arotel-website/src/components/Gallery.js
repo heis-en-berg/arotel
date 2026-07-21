@@ -1,27 +1,27 @@
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+    src: "/images/property/pool.jpg",
     alt: "Hotel Pool",
     span: "lg:col-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-    alt: "Two Bedroom Apartment with Pool Facing Balcony",
+    src: "/images/property/exterior-hero.jpg",
+    alt: "Arotel Exterior at Sunset",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
-    alt: "Presidential Suite",
+    src: "/images/property/restaurant-dining.jpg",
+    alt: "Restaurant Dining Area",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
-    alt: "Restaurant",
+    src: "/images/property/restaurant-breakfast-buffet.jpg",
+    alt: "Breakfast Buffet",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80",
-    alt: "Spa",
+    src: "/images/property/pool-aerial.jpg",
+    alt: "Aerial View of the Pool",
     span: "lg:col-span-2",
   },
 ];

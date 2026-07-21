@@ -7,10 +7,9 @@ const rooms = [
     description:
       "The pinnacle of luxury living — a private sanctuary with exclusive amenities and personalized service.",
     price: "From $550/night",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+    image: "/images/property/presidential-suite-bedroom-4.jpg",
     features: ["Master Bedroom", "Private Terrace", "Pool Access", "24h Butler"],
-    size: "120 m²",
+    size: "45 m²",
   },
   {
     id: 2,
@@ -18,8 +17,7 @@ const rooms = [
     description:
       "Spacious two-bedroom suite with a private balcony overlooking the pool, a separate living area, and premium amenities for family or group stays.",
     price: "From $350/night",
-    image:
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+    image: "/images/property/two-bedroom-suite-bedroom-1.jpg",
     features: ["Two Bedrooms", "Pool-Facing Balcony", "Living Room", "Butler Service"],
     size: "85 m²",
   },
@@ -29,10 +27,9 @@ const rooms = [
     description:
       "Self-contained apartment-style residence with two bedrooms, a full kitchen, and a private pool-facing balcony — ideal for extended stays.",
     price: "From $400/night",
-    image:
-      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+    image: "/images/property/two-bedroom-apartment-bedroom-1.jpg",
     features: ["Two Bedrooms", "Full Kitchen", "Pool-Facing Balcony", "Living Room"],
-    size: "100 m²",
+    size: "110 m²",
   },
 ];
 

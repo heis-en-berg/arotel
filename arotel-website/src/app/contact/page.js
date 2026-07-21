@@ -35,7 +35,7 @@ export default function ContactPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80')",
+              "url('/images/property/reception.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
@@ -74,15 +74,15 @@ export default function ContactPage() {
                 {[
                   {
                     title: "Address",
-                    info: "123 Luxury Avenue, City Center, Your City",
+                    info: "1/338, Calangute, Gauravaddo, Goa, 403516",
                   },
                   {
                     title: "Phone",
-                    info: "+1 (555) 123-4567",
+                    info: "+91 7385137554",
                   },
                   {
                     title: "Email",
-                    info: "info@arotel.net",
+                    info: "arotelroomsandsuites@gmail.com",
                   },
                   {
                     title: "Reservations",

@@ -7,8 +7,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80')",
+          backgroundImage: "url('/images/property/exterior-hero.jpg')",
         }}
       />
 
@@ -18,7 +17,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-3xl mx-auto">
         <p className="text-[11px] tracking-[0.35em] uppercase text-white/70 mb-5">
-          Est. 2014 · A Private Sanctuary
+          Est. 2013 · A Private Sanctuary
         </p>
 
         <h1

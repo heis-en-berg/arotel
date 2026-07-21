@@ -9,7 +9,7 @@ export default function RestaurantSection() {
           <div>
             <div className="relative overflow-hidden h-[420px]">
               <img
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80"
+                src="/images/property/restaurant-interior-2.jpg"
                 alt="Arotel Restaurant"
                 className="w-full h-full object-cover"
               />

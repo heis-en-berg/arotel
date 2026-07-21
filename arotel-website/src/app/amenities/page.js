@@ -71,7 +71,7 @@ export default function AmenitiesPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1920&q=80')",
+              "url('/images/property/pool.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />

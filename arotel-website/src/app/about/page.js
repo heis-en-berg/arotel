@@ -8,29 +8,6 @@ export const metadata = {
     "Learn about Arotel Rooms & Suites — our story, our values, and our commitment to luxury hospitality.",
 };
 
-const teamMembers = [
-  {
-    name: "James Harrington",
-    role: "General Manager",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
-  },
-  {
-    name: "Sophie Laurent",
-    role: "Executive Chef",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
-  },
-  {
-    name: "Marcus Chen",
-    role: "Head of Guest Experience",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
-  },
-  {
-    name: "Amara Okafor",
-    role: "Spa Director",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
-  },
-];
-
 export default function AboutPage() {
   return (
     <>
@@ -42,7 +19,7 @@ export default function AboutPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1920&q=80')",
+              "url('/images/property/exterior-aerial-2.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
@@ -64,7 +41,7 @@ export default function AboutPage() {
         <section className="py-24 md:py-32 px-6">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="label mb-4">Est. 2014</p>
+              <p className="label mb-4">Est. 2013</p>
               <h2
                 className="text-3xl md:text-4xl font-normal text-[#16161A] mb-6 leading-tight"
                 style={{ fontFamily: "var(--font-playfair)" }}
@@ -74,7 +51,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-[#6B6B6F] leading-relaxed text-sm">
                 <p>
-                  Founded in 2014, Arotel Rooms & Suites was born from a vision
+                  Founded in 2013, Arotel Rooms & Suites was born from a vision
                   to create a sanctuary where every guest feels like royalty.
                   Our founders believed that true luxury is not just about
                   opulent surroundings — it&apos;s about the warmth of genuine
@@ -96,7 +73,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&q=80"
+                src="/images/property/exterior-aerial-1.jpg"
                 alt="Arotel Hotel"
                 className="w-full h-96 object-cover"
               />
@@ -163,43 +140,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Team */}
-        <section className="py-24 md:py-32 px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <p className="label mb-3">Our People</p>
-              <h2
-                className="text-3xl md:text-4xl font-normal text-[#16161A]"
-                style={{ fontFamily: "var(--font-playfair)" }}
-              >
-                Meet the Leadership Team
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {teamMembers.map((member) => (
-                <div key={member.name} className="group text-center">
-                  <div className="relative overflow-hidden mb-4 h-64">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                  </div>
-                  <h3
-                    className="text-[#16161A] text-base font-normal"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    {member.name}
-                  </h3>
-                  <p className="text-[#96784A] text-[11px] tracking-[0.15em] uppercase mt-1">
-                    {member.role}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />

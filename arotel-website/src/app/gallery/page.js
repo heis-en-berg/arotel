@@ -5,15 +5,15 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "Gallery | Arotel",
   description:
-    "Explore Arotel through our photo gallery — rooms, restaurant, pool, spa, and more.",
+    "Explore Arotel through our photo gallery — rooms, restaurant, pool, and the property grounds.",
 };
 
-const categories = ["All", "Rooms", "Restaurant", "Pool", "Spa", "Exterior"];
+const categories = ["All", "Rooms", "Restaurant", "Pool", "Exterior"];
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
-    alt: "Infinity Pool at Sunset",
+    src: "/images/property/pool.jpg",
+    alt: "Poolside Escape Framed by Palms",
     category: "Pool",
   },
   {
@@ -22,19 +22,29 @@ const images = [
     category: "Rooms",
   },
   {
-    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
-    alt: "Presidential Suite",
+    src: "/images/property/presidential-suite-bedroom-4.jpg",
+    alt: "Presidential Suite Bedroom & Lounge",
     category: "Rooms",
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
-    alt: "Fine Dining Restaurant",
-    category: "Restaurant",
+    src: "/images/property/presidential-suite-bedroom-1.jpg",
+    alt: "Presidential Suite King Bedroom",
+    category: "Rooms",
   },
   {
-    src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80",
-    alt: "Luxury Spa",
-    category: "Spa",
+    src: "/images/property/presidential-suite-bathroom-1.jpg",
+    alt: "Presidential Suite Bathroom",
+    category: "Rooms",
+  },
+  {
+    src: "/images/property/presidential-suite-bedroom-5.jpg",
+    alt: "Presidential Suite Seating Area",
+    category: "Rooms",
+  },
+  {
+    src: "/images/property/restaurant-dining.jpg",
+    alt: "Alfresco Dining Room Overlooking the Garden",
+    category: "Restaurant",
   },
   {
     src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
@@ -42,33 +52,43 @@ const images = [
     category: "Rooms",
   },
   {
-    src: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80",
-    alt: "Hotel Exterior",
+    src: "/images/property/exterior-hero.jpg",
+    alt: "Arotel at Golden Hour",
     category: "Exterior",
   },
   {
-    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
-    alt: "Restaurant Ambiance",
+    src: "/images/property/restaurant-interior-1.jpg",
+    alt: "Casual Dining & Lounge Seating",
     category: "Restaurant",
   },
   {
-    src: "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&q=80",
-    alt: "Hotel Pool Area",
+    src: "/images/property/pool-aerial.jpg",
+    alt: "Bird's-Eye View of the Pool Deck",
     category: "Pool",
   },
   {
-    src: "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
-    alt: "Spa Treatment Room",
-    category: "Spa",
+    src: "/images/property/exterior-entrance.jpg",
+    alt: "Welcoming Entrance & Driveway",
+    category: "Exterior",
   },
   {
-    src: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
-    alt: "Two Bedroom Apartment with Pool Facing Balcony",
-    category: "Rooms",
+    src: "/images/property/exterior-aerial-2.jpg",
+    alt: "Arotel Rising Above the Coconut Groves",
+    category: "Exterior",
   },
   {
-    src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
-    alt: "Hotel Architecture",
+    src: "/images/property/restaurant-breakfast-buffet.jpg",
+    alt: "Morning Breakfast Spread",
+    category: "Restaurant",
+  },
+  {
+    src: "/images/property/reception.jpg",
+    alt: "Reception & Travel Desk",
+    category: "Exterior",
+  },
+  {
+    src: "/images/property/exterior-aerial-1.jpg",
+    alt: "Nestled Amid the Palms",
     category: "Exterior",
   },
 ];
@@ -84,7 +104,7 @@ export default function GalleryPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80')",
+              "url('/images/property/pool-aerial.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />

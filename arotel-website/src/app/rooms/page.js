@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import RoomImageCarousel from "@/components/RoomImageCarousel";
 import Link from "next/link";
 
 export const metadata = {
@@ -16,8 +17,19 @@ const rooms = [
     description:
       "The pinnacle of luxury living at Arotel. Our Presidential Suite is a private sanctuary spanning an entire floor, with a private terrace, personal butler, and exclusive access to all premium hotel services.",
     price: "From $550/night",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80",
+    image: "/images/property/presidential-suite-bedroom-4.jpg",
+    images: [
+      "/images/property/presidential-suite-bedroom-4.jpg",
+      "/images/property/presidential-suite-bedroom-1.jpg",
+      "/images/property/presidential-suite-bedroom-2.jpg",
+      "/images/property/presidential-suite-bedroom-3.jpg",
+      "/images/property/presidential-suite-bedroom-5.jpg",
+      "/images/property/presidential-suite-bedroom-6.jpg",
+      "/images/property/presidential-suite-bathroom-1.jpg",
+      "/images/property/presidential-suite-bathroom-2.jpg",
+      "/images/property/presidential-suite-bathroom-3.jpg",
+      "/images/property/presidential-suite-amenities.jpg",
+    ],
     features: [
       "Master Bedroom",
       "Private Terrace",
@@ -28,8 +40,8 @@ const rooms = [
       "Home Theater",
       "Luxury Amenities",
     ],
-    size: "120 m²",
-    maxGuests: 4,
+    size: "45 m²",
+    maxGuests: 3,
   },
   {
     id: "two-bedroom-suite-pool-balcony",
@@ -39,6 +51,22 @@ const rooms = [
     price: "From $350/night",
     image:
       "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80",
+    images: [
+      "/images/property/two-bedroom-suite-bedroom-1.jpg",
+      "/images/property/two-bedroom-suite-bedroom-2.jpg",
+      "/images/property/two-bedroom-suite-bedroom-3.jpg",
+      "/images/property/two-bedroom-suite-bedroom-4.jpg",
+      "/images/property/two-bedroom-suite-bedroom-5.jpg",
+      "/images/property/two-bedroom-suite-bathroom-1.jpg",
+      "/images/property/two-bedroom-suite-bathroom-2.jpg",
+      "/images/property/two-bedroom-suite-bathroom-3.jpg",
+      "/images/property/two-bedroom-suite-bathroom-4.jpg",
+      "/images/property/two-bedroom-suite-kitchen-1.jpg",
+      "/images/property/two-bedroom-suite-kitchen-2.jpg",
+      "/images/property/two-bedroom-suite-balcony-1.jpg",
+      "/images/property/two-bedroom-suite-balcony-2.jpg",
+      "/images/property/two-bedroom-suite-amenities.jpg",
+    ],
     features: [
       "Two Bedrooms",
       "Pool-Facing Balcony",
@@ -50,7 +78,7 @@ const rooms = [
       "Priority Reservations",
     ],
     size: "85 m²",
-    maxGuests: 4,
+    maxGuests: 5,
   },
   {
     id: "two-bedroom-apartment-pool-balcony",
@@ -60,6 +88,21 @@ const rooms = [
     price: "From $400/night",
     image:
       "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
+    images: [
+      "/images/property/two-bedroom-apartment-bedroom-1.jpg",
+      "/images/property/two-bedroom-apartment-bedroom-2.jpg",
+      "/images/property/two-bedroom-apartment-living-1.jpg",
+      "/images/property/two-bedroom-apartment-living-2.jpg",
+      "/images/property/two-bedroom-apartment-living-3.jpg",
+      "/images/property/two-bedroom-apartment-living-4.jpg",
+      "/images/property/two-bedroom-apartment-kitchen-1.jpg",
+      "/images/property/two-bedroom-apartment-kitchen-2.jpg",
+      "/images/property/two-bedroom-apartment-bathroom-1.jpg",
+      "/images/property/two-bedroom-apartment-bathroom-2.jpg",
+      "/images/property/two-bedroom-apartment-balcony-1.jpg",
+      "/images/property/two-bedroom-apartment-balcony-2.jpg",
+      "/images/property/two-bedroom-apartment-amenities.jpg",
+    ],
     features: [
       "Two Bedrooms",
       "Full Kitchen",
@@ -70,8 +113,8 @@ const rooms = [
       "Living Room",
       "Large Bathroom",
     ],
-    size: "100 m²",
-    maxGuests: 5,
+    size: "110 m²",
+    maxGuests: 6,
   },
 ];
 
@@ -86,7 +129,7 @@ export default function RoomsPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1920&q=80')",
+              "url('/images/property/pool-aerial.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
@@ -125,11 +168,15 @@ export default function RoomsPage() {
                     index % 2 !== 0 ? "lg:order-2" : ""
                   }`}
                 >
-                  <img
-                    src={room.image}
-                    alt={room.name}
-                    className="w-full h-full object-cover"
-                  />
+                  {room.images && room.images.length > 0 ? (
+                    <RoomImageCarousel images={room.images} alt={room.name} />
+                  ) : (
+                    <img
+                      src={room.image}
+                      alt={room.name}
+                      className="w-full h-full object-cover"
+                    />
+                  )}
                   <div className="absolute top-4 left-4 bg-[#16161A]/80 text-white px-3 py-1.5 text-xs">
                     {room.size} · Up to {room.maxGuests} guests
                   </div>
