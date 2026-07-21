@@ -6,7 +6,7 @@ const rooms = [
     slug: "presidential-suite",
     name: "Presidential Suite",
     description:
-      "The pinnacle of luxury living — a private sanctuary with exclusive amenities and personalized service.",
+      "A comfortable and spacious suite for guests who prefer a little more room.",
     image: "/images/property/presidential-suite-bedroom-4.jpg",
     features: ["Spacious Bedroom", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler"],
     size: "45 m²",
@@ -16,7 +16,7 @@ const rooms = [
     slug: "two-bedroom-suite-pool-balcony",
     name: "Two Bedroom Suite with Pool Facing Balcony",
     description:
-      "Spacious two-bedroom suite with a private balcony overlooking the pool, a separate living area, and premium amenities for family or group stays.",
+      "Comfortably designed for families, featuring a private bedroom, living space, and pool-facing balcony.",
     image: "/images/property/two-bedroom-suite-bedroom-1.jpg",
     features: ["One Spacios Bedroom", "Second Bed in Living Room", "Pool-Facing Balcony", "Living Room", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe"],
     size: "85 m²",
@@ -26,7 +26,7 @@ const rooms = [
     slug: "two-bedroom-apartment-pool-balcony",
     name: "Two Bedroom Apartment with Pool Facing Balcony",
     description:
-      "Self-contained apartment-style residence with two bedrooms, a full kitchen, and a private pool-facing balcony — ideal for extended stays.",
+      "A spacious two-bedroom apartment with a kitchenette and pool-facing balcony, ideal for families and extended stays.",
     image: "/images/property/two-bedroom-apartment-bedroom-1.jpg",
     features: ["Two Spacious Bedrooms", "Two Private Bathrooms", "Kitchenette", "Pool-Facing Balcony", "Living Room", "Sofa Cum Bed", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe", "Dining Area"],
     size: "110 m²",

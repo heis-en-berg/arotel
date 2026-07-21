@@ -15,7 +15,7 @@ const rooms = [
     id: "presidential-suite",
     name: "Presidential Suite",
     description:
-      "The pinnacle of luxury living at Arotel. Our Presidential Suite is a private sanctuary spanning an entire floor, with a private terrace, personal butler, and exclusive access to all premium hotel services.",
+      "A comfortable and spacious suite for guests who prefer a little more room.",
     image: "/images/property/presidential-suite-bedroom-4.jpg",
     images: [
       "/images/property/presidential-suite-bedroom-4.jpg",
@@ -30,14 +30,7 @@ const rooms = [
       "/images/property/presidential-suite-amenities.jpg",
     ],
     features: [
-      "Master Bedroom",
-      "Private Terrace",
-      "Pool Access",
-      "24h Butler",
-      "Dining Room",
-      "Kitchen",
-      "Home Theater",
-      "Luxury Amenities",
+      "Spacious Bedroom", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler",
     ],
     size: "45 m²",
     maxGuests: 3,
@@ -46,7 +39,7 @@ const rooms = [
     id: "two-bedroom-suite-pool-balcony",
     name: "Two Bedroom Suite with Pool Facing Balcony",
     description:
-      "Our Two Bedroom Suite offers generous space for families or groups, with a separate living area and a private balcony overlooking the pool. Premium furnishings and panoramic views make this suite a relaxing retreat.",
+      "Comfortably designed for families, featuring a private bedroom, living space, and pool-facing balcony.",
     image:
       "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80",
     images: [
@@ -66,14 +59,7 @@ const rooms = [
       "/images/property/two-bedroom-suite-amenities.jpg",
     ],
     features: [
-      "Two Bedrooms",
-      "Pool-Facing Balcony",
-      "Living Room",
-      "Butler Service",
-      "Espresso Machine",
-      "Panoramic Pool View",
-      "Walk-in Closet",
-      "Priority Reservations",
+      "One Spacios Bedroom", "Second Bed in Living Room", "Pool-Facing Balcony", "Living Room", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe",
     ],
     size: "85 m²",
     maxGuests: 5,
@@ -82,7 +68,7 @@ const rooms = [
     id: "two-bedroom-apartment-pool-balcony",
     name: "Two Bedroom Apartment with Pool Facing Balcony",
     description:
-      "A self-contained apartment-style residence featuring two bedrooms, a full kitchen, and a private pool-facing balcony. Perfect for extended stays and families who want the comforts of home with hotel-grade service.",
+      "A spacious two-bedroom apartment with a kitchenette and pool-facing balcony, ideal for families and extended stays.",
     image:
       "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
     images: [
@@ -101,14 +87,7 @@ const rooms = [
       "/images/property/two-bedroom-apartment-amenities.jpg",
     ],
     features: [
-      "Two Bedrooms",
-      "Full Kitchen",
-      "Pool-Facing Balcony",
-      "Dining Area",
-      "Washer/Dryer",
-      "Free WiFi",
-      "Living Room",
-      "Large Bathroom",
+      "Two Spacious Bedrooms", "Two Private Bathrooms", "Kitchenette", "Pool-Facing Balcony", "Living Room", "Sofa Cum Bed", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe", "Dining Area",
     ],
     size: "110 m²",
     maxGuests: 6,
