@@ -18,7 +18,7 @@ const images = [
   },
   {
     src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-    alt: "Deluxe Room",
+    alt: "Two Bedroom Apartment with Pool Facing Balcony",
     category: "Rooms",
   },
   {
@@ -38,7 +38,7 @@ const images = [
   },
   {
     src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
-    alt: "Superior Suite Living Area",
+    alt: "Two Bedroom Suite with Pool Facing Balcony",
     category: "Rooms",
   },
   {
@@ -63,7 +63,7 @@ const images = [
   },
   {
     src: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
-    alt: "Family Room",
+    alt: "Two Bedroom Apartment with Pool Facing Balcony",
     category: "Rooms",
   },
   {

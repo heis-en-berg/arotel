@@ -6,7 +6,7 @@ const galleryImages = [
   },
   {
     src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-    alt: "Deluxe Room",
+    alt: "Two Bedroom Apartment with Pool Facing Balcony",
     span: "",
   },
   {

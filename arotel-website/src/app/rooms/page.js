@@ -6,52 +6,10 @@ import Link from "next/link";
 export const metadata = {
   title: "Rooms & Suites | Arotel",
   description:
-    "Explore our luxurious rooms and suites at Arotel. From Deluxe Rooms to Presidential Suites.",
+    "Explore our luxurious rooms and suites at Arotel, including our Presidential Suite and pool-facing two bedroom accommodations.",
 };
 
 const rooms = [
-  {
-    id: "deluxe-room",
-    name: "Deluxe Room",
-    description:
-      "Our Deluxe Rooms offer a perfect blend of contemporary elegance and comfort. Featuring a plush king-size bed, premium linens, and stunning city views, these rooms are designed for the discerning traveler.",
-    price: "From $150/night",
-    image:
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=80",
-    features: [
-      "King Bed",
-      "City View",
-      "Free WiFi",
-      "Mini Bar",
-      "Smart TV",
-      "Rain Shower",
-      "Work Desk",
-      "Room Service",
-    ],
-    size: "35 m²",
-    maxGuests: 2,
-  },
-  {
-    id: "superior-suite",
-    name: "Superior Suite",
-    description:
-      "Our Superior Suites offer a separate living area for ultimate relaxation. With panoramic views, premium amenities, and a private Jacuzzi, these suites redefine the meaning of luxury.",
-    price: "From $280/night",
-    image:
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80",
-    features: [
-      "King Bed",
-      "Living Room",
-      "Jacuzzi",
-      "Butler Service",
-      "Espresso Machine",
-      "Panoramic View",
-      "Walk-in Closet",
-      "Priority Reservations",
-    ],
-    size: "65 m²",
-    maxGuests: 3,
-  },
   {
     id: "presidential-suite",
     name: "Presidential Suite",
@@ -74,25 +32,46 @@ const rooms = [
     maxGuests: 4,
   },
   {
-    id: "family-room",
-    name: "Family Room",
+    id: "two-bedroom-suite-pool-balcony",
+    name: "Two Bedroom Suite with Pool Facing Balcony",
     description:
-      "Spacious and thoughtfully designed for families, our Family Rooms offer ample space for parents and children alike, with connecting room options and family-friendly amenities.",
-    price: "From $220/night",
+      "Our Two Bedroom Suite offers generous space for families or groups, with a separate living area and a private balcony overlooking the pool. Premium furnishings and panoramic views make this suite a relaxing retreat.",
+    price: "From $350/night",
+    image:
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80",
+    features: [
+      "Two Bedrooms",
+      "Pool-Facing Balcony",
+      "Living Room",
+      "Butler Service",
+      "Espresso Machine",
+      "Panoramic Pool View",
+      "Walk-in Closet",
+      "Priority Reservations",
+    ],
+    size: "85 m²",
+    maxGuests: 4,
+  },
+  {
+    id: "two-bedroom-apartment-pool-balcony",
+    name: "Two Bedroom Apartment with Pool Facing Balcony",
+    description:
+      "A self-contained apartment-style residence featuring two bedrooms, a full kitchen, and a private pool-facing balcony. Perfect for extended stays and families who want the comforts of home with hotel-grade service.",
+    price: "From $400/night",
     image:
       "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
     features: [
-      "2 Queen Beds",
-      "Garden View",
-      "Children Amenities",
-      "Connecting Rooms",
-      "Baby Cot Available",
+      "Two Bedrooms",
+      "Full Kitchen",
+      "Pool-Facing Balcony",
+      "Dining Area",
+      "Washer/Dryer",
       "Free WiFi",
-      "Mini Kitchen",
+      "Living Room",
       "Large Bathroom",
     ],
-    size: "55 m²",
-    maxGuests: 4,
+    size: "100 m²",
+    maxGuests: 5,
   },
 ];
 

@@ -15,7 +15,7 @@ const testimonials = [
     review:
       "We celebrated our anniversary here and it was truly magical. The room was stunning, the spa was heavenly, and every single staff member made us feel like royalty. We will absolutely return.",
     avatar: "JC",
-    stay: "Superior Suite",
+    stay: "Two Bedroom Suite with Pool Facing Balcony",
   },
   {
     name: "Ahmed Al-Rashid",
@@ -24,7 +24,7 @@ const testimonials = [
     review:
       "Having stayed at many 5-star hotels worldwide, Arotel stands out for its genuine warmth and impeccable service. The infinity pool at sunset is an experience I will never forget.",
     avatar: "AR",
-    stay: "Deluxe Room",
+    stay: "Two Bedroom Apartment with Pool Facing Balcony",
   },
 ];
 

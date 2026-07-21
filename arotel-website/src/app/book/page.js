@@ -7,10 +7,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Link from "next/link";
 
 const rooms = [
-  { name: "Deluxe Room", price: 150 },
-  { name: "Superior Suite", price: 280 },
   { name: "Presidential Suite", price: 550 },
-  { name: "Family Room", price: 220 },
+  { name: "Two Bedroom Suite with Pool Facing Balcony", price: 350 },
+  { name: "Two Bedroom Apartment with Pool Facing Balcony", price: 400 },
 ];
 
 export default function BookPage() {
@@ -18,7 +17,7 @@ export default function BookPage() {
   const tomorrow = new Date(Date.now() + 86400000).toISOString().split("T")[0];
 
   const [formData, setFormData] = useState({
-    room: "Deluxe Room",
+    room: "Presidential Suite",
     checkIn: today,
     checkOut: tomorrow,
     guests: "1",

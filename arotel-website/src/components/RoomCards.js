@@ -3,28 +3,6 @@ import Link from "next/link";
 const rooms = [
   {
     id: 1,
-    name: "Deluxe Room",
-    description:
-      "Elegantly appointed room with plush furnishings, city views, and all the comforts of home.",
-    price: "From $150/night",
-    image:
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
-    features: ["King Bed", "City View", "Free WiFi", "Mini Bar"],
-    size: "35 m²",
-  },
-  {
-    id: 2,
-    name: "Superior Suite",
-    description:
-      "Spacious suite with a separate living area, premium amenities, and breathtaking panoramic views.",
-    price: "From $280/night",
-    image:
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
-    features: ["King Bed", "Living Room", "Jacuzzi", "Butler Service"],
-    size: "65 m²",
-  },
-  {
-    id: 3,
     name: "Presidential Suite",
     description:
       "The pinnacle of luxury living — a private sanctuary with exclusive amenities and personalized service.",
@@ -33,6 +11,28 @@ const rooms = [
       "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
     features: ["Master Bedroom", "Private Terrace", "Pool Access", "24h Butler"],
     size: "120 m²",
+  },
+  {
+    id: 2,
+    name: "Two Bedroom Suite with Pool Facing Balcony",
+    description:
+      "Spacious two-bedroom suite with a private balcony overlooking the pool, a separate living area, and premium amenities for family or group stays.",
+    price: "From $350/night",
+    image:
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+    features: ["Two Bedrooms", "Pool-Facing Balcony", "Living Room", "Butler Service"],
+    size: "85 m²",
+  },
+  {
+    id: 3,
+    name: "Two Bedroom Apartment with Pool Facing Balcony",
+    description:
+      "Self-contained apartment-style residence with two bedrooms, a full kitchen, and a private pool-facing balcony — ideal for extended stays.",
+    price: "From $400/night",
+    image:
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+    features: ["Two Bedrooms", "Full Kitchen", "Pool-Facing Balcony", "Living Room"],
+    size: "100 m²",
   },
 ];
 
