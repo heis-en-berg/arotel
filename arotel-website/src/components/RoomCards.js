@@ -8,7 +8,7 @@ const rooms = [
       "The pinnacle of luxury living — a private sanctuary with exclusive amenities and personalized service.",
     price: "From $550/night",
     image: "/images/property/presidential-suite-bedroom-4.jpg",
-    features: ["Master Bedroom", "Private Terrace", "Pool Access", "24h Butler"],
+    features: ["Spacious Bedroom", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler"],
     size: "45 m²",
   },
   {
@@ -18,7 +18,7 @@ const rooms = [
       "Spacious two-bedroom suite with a private balcony overlooking the pool, a separate living area, and premium amenities for family or group stays.",
     price: "From $350/night",
     image: "/images/property/two-bedroom-suite-bedroom-1.jpg",
-    features: ["Two Bedrooms", "Pool-Facing Balcony", "Living Room", "Butler Service"],
+    features: ["One Spacios Bedroom", "Second Bed in Living Room", "Pool-Facing Balcony", "Living Room", "Private Bathroom", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe"],
     size: "85 m²",
   },
   {
@@ -28,7 +28,7 @@ const rooms = [
       "Self-contained apartment-style residence with two bedrooms, a full kitchen, and a private pool-facing balcony — ideal for extended stays.",
     price: "From $400/night",
     image: "/images/property/two-bedroom-apartment-bedroom-1.jpg",
-    features: ["Two Bedrooms", "Full Kitchen", "Pool-Facing Balcony", "Living Room"],
+    features: ["Two Spacious Bedrooms", "Two Private Bathrooms", "Kitchenette", "Pool-Facing Balcony", "Living Room", "Sofa Cum Bed", "Pool Access", "TV", "AC", "Kettle for Tea/Coffee", "Fridge", "24h Butler", "Wardrobe", "Dining Area"],
     size: "110 m²",
   },
 ];
@@ -67,14 +67,16 @@ export default function RoomCards() {
 
               {/* Content */}
               <div className="p-8">
-                <div className="flex items-baseline justify-between mb-3">
-                  <h3
-                    className="text-lg font-normal text-[#16161A]"
+                <div className="flex items-baseline justify-between gap-3 mb-3">
+                <h3
+                    className="text-lg font-normal text-[#16161A] min-w-0"
                     style={{ fontFamily: "var(--font-playfair)" }}
-                  >
+                >
                     {room.name}
-                  </h3>
-                  <span className="text-[11px] text-[#6B6B6F]">{room.size}</span>
+                </h3>
+                <span className="text-[11px] text-[#6B6B6F] whitespace-nowrap flex-shrink-0">
+                    {room.size}
+                </span>
                 </div>
                 <p className="text-[#6B6B6F] text-sm leading-relaxed mb-5">
                   {room.description}
@@ -87,7 +89,7 @@ export default function RoomCards() {
 
                 {/* Price & CTA */}
                 <div className="flex items-center justify-between pt-5 border-t border-[#E5E3DD]">
-                  <span className="text-[#16161A] text-sm">{room.price}</span>
+                  {/* <span className="text-[#16161A] text-sm">{room.price}</span> */}
                   <Link
                     href={`/rooms#${room.name.toLowerCase().replace(/\s+/g, "-")}`}
                     className="text-[11px] tracking-[0.15em] uppercase text-[#96784A] hover:text-[#16161A] transition-colors duration-200"
