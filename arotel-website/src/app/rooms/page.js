@@ -16,7 +16,6 @@ const rooms = [
     name: "Presidential Suite",
     description:
       "The pinnacle of luxury living at Arotel. Our Presidential Suite is a private sanctuary spanning an entire floor, with a private terrace, personal butler, and exclusive access to all premium hotel services.",
-    price: "From $550/night",
     image: "/images/property/presidential-suite-bedroom-4.jpg",
     images: [
       "/images/property/presidential-suite-bedroom-4.jpg",
@@ -48,7 +47,6 @@ const rooms = [
     name: "Two Bedroom Suite with Pool Facing Balcony",
     description:
       "Our Two Bedroom Suite offers generous space for families or groups, with a separate living area and a private balcony overlooking the pool. Premium furnishings and panoramic views make this suite a relaxing retreat.",
-    price: "From $350/night",
     image:
       "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80",
     images: [
@@ -85,7 +83,6 @@ const rooms = [
     name: "Two Bedroom Apartment with Pool Facing Balcony",
     description:
       "A self-contained apartment-style residence featuring two bedrooms, a full kitchen, and a private pool-facing balcony. Perfect for extended stays and families who want the comforts of home with hotel-grade service.",
-    price: "From $400/night",
     image:
       "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80",
     images: [
@@ -184,9 +181,9 @@ export default function RoomsPage() {
 
                 {/* Content */}
                 <div className={index % 2 !== 0 ? "lg:order-1" : ""}>
-                  <p className="text-[11px] tracking-[0.2em] uppercase text-[#96784A] mb-3">
+                  {/* <p className="text-[11px] tracking-[0.2em] uppercase text-[#96784A] mb-3">
                     {room.price}
-                  </p>
+                  </p> */}
                   <h2
                     className="text-2xl md:text-3xl font-normal text-[#16161A] mb-4"
                     style={{ fontFamily: "var(--font-playfair)" }}
